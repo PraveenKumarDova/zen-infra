@@ -1,4 +1,6 @@
 
+# This is the main Terraform configuration file for the development environment.  
+
 
 data "aws_caller_identity" "current" {}
 
