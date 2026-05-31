@@ -26,7 +26,7 @@ module "eks" {
   node_instance_type = "t3.small"
   desired_capacity   = 5
   min_size           = 1
-  max_size           = 4
+  max_size           = 5
 }
 
 module "rds" {
