@@ -1,7 +1,7 @@
 
 # This is the main Terraform configuration file for the development environment.  
 
-
+# Initial dev envt setup for the pharma project. This includes VPC, EKS, RDS, ECR, IAM, and Secrets Manager modules.
 
 data "aws_caller_identity" "current" {}
 
